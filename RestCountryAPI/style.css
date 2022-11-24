@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 98vw;
+    height: fit-content;
+}
+.center{
+    width: 80%;
+    margin: auto;
+}
+.first{
+    height: 50px;
+    width: 100%;
+}
+.first input{
+    width: 85%;
+    padding: 5px;
+    border-radius: 3px;
+}
+.first button{
+    width: 12%;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    background-color: green;
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.second{
+    width: 100%;
+}
+.second img{
+    width: 100%;
+    height: 200px;
+    padding: none;
+}
+table{
+    width: 100%;
+
+}
+tr{
+    background-color: rgb(173, 122, 221, 0.8);
+    color: white;
+}
+tr:nth-child(odd){
+    background-color: rgb(221, 171, 221);
+}
+th,td{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width:550px) {
+ 
+    .first{
+        height: 50px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .first input{
+        width: 100%;
+    }
+    .first button{
+        width: 99.5%;
+        padding: 10px;
+    }
+    table{
+        width: 100%;
+        margin-top: 23px;
+    }
+    tr:nth-child(odd){
+        background-color: rgb(221, 171, 221);
+        color: black;
+    }
+    tr:nth-child(even){
+        background-color: rgb(221, 171, 221);
+        color: black;
+    }
+    td{
+        color: black;
+    }
+}
+@media screen and (max-width:800px) {
+    table{
+     margin-top: 20px;
+    }
+    .first button{
+        width : 100%;
+    }
+    .first input{
+        width :97%;
+    }
+ }
